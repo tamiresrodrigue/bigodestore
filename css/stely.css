@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family:"Inter", sans-serif;
+    scroll-behavior: smooth;
+    
+}
+
+.header img{
+    display: flex;
+    width: 1280px;
+    height: 720px;
+    }
+
