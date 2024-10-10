@@ -7,7 +7,7 @@
     font-family:"Inter", sans-serif;
     scroll-behavior: smooth;
     
-}
+ }
 
     header {
         background-image: url(../img/banner\ promotion.svg);
@@ -18,7 +18,7 @@
         padding-bottom: 244px;
 
         & nav{
-            display: flex;
+        display: flex;
         justify-content: space-between;
         padding: 16px 92px;
         align-items: center;
@@ -68,40 +68,78 @@
         margin-left: 95px;
         color: #fff;
         width: 438px;
+     }
 
-        & .title {
+    & .btg button{
+        background-color: #3B44F6;
+        padding: 16px 32px;
+        display: flex;
+        margin-top: 64px;
+        gap: 64px;
+        }
+
+    } 
+
+    main {
+        & .why{
             display: flex;
             flex-direction: column;
-            gap: 17px;
+            align-items: center;
         }
 
-        & .title h1 {
+        & .logos {
             display: flex;
-            flex-direction: column;
-            gap: 17px;
-            font-size: 48px;
+            align-items: center;
+            background-position: center;
+            gap: 60px;
         }
 
-        & .title p {
-            display: flex;
-            flex-direction: column;
-            gap: 17px;
-            font-size: 24px;
+        & .games{
+            & h2{
+                font-size: 36px;
+                font-weight: 600;
+                line-height: 50.4px;
+                text-align: left;
+                 }
+            & h5{
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 27px;
+                text-align: right;
+                color: #3B44F6;
+            }  
+            & .promotion{
+                & .card-strategy{
+                    background-image: url(../img/strategy.svg);
+                    width: 169px;
+                    height: 169px;
+                    gap: 0px;
+                    border-radius: 8px 0px 0px 0px;
+                    opacity: 0px;
+
+                & p {
+                    color: #fff;
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 26px;
+                    text-align: center;
+                  
+
+                }
+                    
+
+                }
+
+            }
         }
 
 
-        & button {
-            background-color: #3B44F6;
-            padding: 16px 32px;
-            display: flex;
-            margin-top: 64px;
-            gap: 64px;
 
-
-        }
     }
 
-}
-        
    
+
+   
+
+
 
