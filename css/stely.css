@@ -7,6 +7,7 @@
     font-family:"Inter", sans-serif;
     scroll-behavior: smooth;
     
+    
  }
 
     header {
@@ -81,18 +82,31 @@
     } 
 
     main {
-        & .why{
+
+        & .why {
             display: flex;
             flex-direction: column;
             align-items: center;
+
+            & .logos {
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                background-position: center;
+                gap: 83px;
+                border-radius: 100px;
+                margin: auto;
+    
+                & p {
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 26px;
+                text-align: center;
+                }
+                
+            }
         }
 
-        & .logos {
-            display: flex;
-            align-items: center;
-            background-position: center;
-            gap: 60px;
-        }
 
         & .games{
             & h2{
@@ -107,8 +121,21 @@
                 line-height: 27px;
                 text-align: right;
                 color: #3B44F6;
-            }  
+                }  
             & .promotion{
+                display: flex;
+                flex-direction: row;
+                gap: 16px;
+                align-items: center;
+
+                & p {
+                    color: #fff;
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 26px;
+                    text-align: center;
+                    margin-top: 70px;
+                }
                 & .card-strategy{
                     background-image: url(../img/strategy.svg);
                     width: 169px;
@@ -117,24 +144,62 @@
                     border-radius: 8px 0px 0px 0px;
                     opacity: 0px;
 
-                & p {
-                    color: #fff;
-                    font-size: 20px;
-                    font-weight: 500;
-                    line-height: 26px;
-                    text-align: center;
-                  
+                }
+                & .card-FPS{
+                    background-image: url(../img/FPS.svg);
+                    width: 169px;
+                    height: 169px;
+                    gap: 0px;
+                    border-radius: 8px 0px 0px 0px;
+                    opacity: 0px;
+
+      
+                }
+                & .card-RPG{
+                    background-image: url(../img/RPG.svg);
+                    width: 169px;
+                    height: 169px;
+                    gap: 0px;
+                    border-radius: 8px 0px 0px 0px;
+                    opacity: 0px;
 
                 }
+                & .card-puzzle{
+                    background-image: url(../img/puzzle.svg);
+                    width: 169px;
+                    height: 169px;
+                    gap: 0px;
+                    border-radius: 8px 0px 0px 0px;
+                    opacity: 0px;
                     
+      
+                }
+                & .card-role-playing{
+                    background-image: url(../img/role\ playing.svg);
+                    width: 169px;
+                    height: 169px;
+                    gap: 0px;
+                    border-radius: 8px 0px 0px 0px;
+                    opacity: 0px;
+
+        
+                }
+                & .card-sports{
+                    background-image: url(../img/sports.svg);
+                    width: 169px;
+                    height: 169px;
+                    gap: 0px;
+                    border-radius: 8px 0px 0px 0px;
+                    opacity: 0px;
+
+           
 
                 }
+                }
 
-            }
+
+
         }
-
-
-
     }
 
    
