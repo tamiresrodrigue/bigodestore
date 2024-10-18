@@ -82,7 +82,6 @@ header {
 }
 
 main {
-
     & .why {
         display: flex;
         flex-direction: column;
@@ -106,16 +105,30 @@ main {
 
         }
     }
-
-
     & .games {
+        width: 1280px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 92px 40px 92px;
+        gap: 24px;
+        margin: auto;
+        
+
+       & .title{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 24px;
+    
+       }
         & h2 {
             font-size: 36px;
             font-weight: 600;
             line-height: 50.4px;
             text-align: left;
+            width: 261px;
+             
         }
-
         & h5 {
             font-size: 18px;
             font-weight: 600;
@@ -123,13 +136,18 @@ main {
             text-align: right;
             color: #3B44F6;
         }
-
         & .promotion {
             display: flex;
-            flex-direction: row;
             gap: 16px;
             align-items: center;
-
+            
+            & div {
+                width: 169px;
+                height: 169px;
+                gap: 0px;
+                border-radius: 8px;
+                opacity: 0px;
+            }
             & p {
                 color: #fff;
                 font-size: 20px;
@@ -138,78 +156,42 @@ main {
                 text-align: center;
                 margin-top: 70px;
             }
-
             & .card-strategy {
                 background-image: url(../img/strategy.svg);
-                width: 169px;
-                height: 169px;
-                gap: 0px;
-                border-radius: 8px;
-                opacity: 0px;
-
             }
-
             & .card-FPS {
                 background-image: url(../img/FPS.svg);
-                width: 169px;
-                height: 169px;
-                gap: 0px;
-                border-radius: 8px 0px 0px 0px;
-                opacity: 0px;
-
-
             }
-
             & .card-RPG {
                 background-image: url(../img/RPG.svg);
-                width: 169px;
-                height: 169px;
-                gap: 0px;
-                border-radius: 8px 0px 0px 0px;
-                opacity: 0px;
-
             }
-
             & .card-puzzle {
                 background-image: url(../img/puzzle.svg);
-                width: 169px;
-                height: 169px;
-                gap: 0px;
-                border-radius: 8px 0px 0px 0px;
-                opacity: 0px;
-
-
             }
-
             & .card-role-playing {
                 background-image: url(../img/role\ playing.svg);
-                width: 169px;
-                height: 169px;
-                gap: 0px;
-                border-radius: 8px 0px 0px 0px;
-                opacity: 0px;
-
-
             }
-
             & .card-sports {
                 background-image: url(../img/sports.svg);
-                width: 169px;
-                height: 169px;
-                gap: 0px;
-                border-radius: 8px 0px 0px 0px;
-                opacity: 0px;
-
-
-
             }
         }
-
-
-
     }
-
     & .best {
+        width: 1280px;
+        padding: 30px 0px 30px 0px;
+        gap: 18px;
+        margin: auto;
+        padding: 40px 92px;
+
+        & h2 {
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 50.4px;
+            text-align: left;
+            width: 518px;
+             
+        }
+
         & .cards-best {
             display: flex;
             gap: 16px;
@@ -222,6 +204,20 @@ main {
                 gap: 15px;
                 border-radius: 8px;
                 border: 0.3px solid #D1D1D1;
+            }
+            & .h3 {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 26px;
+            text-align: left;
+            }
+            & .p {
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 22.4px;
+                text-align: left;
+
             }
         }
     }
